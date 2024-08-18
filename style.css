@@ -7,6 +7,16 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
 }
+*.btn-primary{ 
+    color: white;
+    background-color: rgb(231, 85, 32);
+    border: 0;
+    border-radius: 8px;
+    font-weight: 500px;
+    font-size: 20px;
+    padding: 20px 25px;
+
+}
 /* headr style  */
 header{
     background-color: antiquewhite;
@@ -49,4 +59,60 @@ nav li a {
 .banner img {
     height: 600px;
     width: 1200px;
+    margin-top: 20px;
+}
+/* responsive with media quaery */
+/* mobile divice */
+@media only screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-title{
+        align-items: center;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    nav li {
+        font-weight: 400;
+        font-size: 16px;
+        margin: 10px;
+    }
+    .banner-title{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .banner img{
+        width: 100%;
+    }
+}
+/* tablet device */
+@media only screen and (min-width:576) and (max-width :920px){
+    header {
+        padding: 30px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-title{
+        align-items: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    nav li {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 15px;
+    }
+    .banner-title{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .banner img{
+        width: 100%;
+    }
 }
