@@ -90,7 +90,7 @@ nav li a {
     }
 }
 /* tablet device */
-@media only screen and (min-width:576) and (max-width :920px){
+@media only screen and (max-width :960px){
     header {
         padding: 30px;
     }
